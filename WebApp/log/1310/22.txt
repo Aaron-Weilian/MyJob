@@ -1,0 +1,714 @@
+2013-10-22 11:38:13 System start 
+日志类型：操作日志
+详情：Get webConfig information ……
+----------------------------------------
+2013-10-22 11:41:25 System start 
+Log Type：Operaion Log
+Log Detail：Get webConfig information ……
+----------------------------------------
+2013-10-22 11:46:17 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 11:46:17
+----------------------------------------
+2013-10-22 11:46:17 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 11:46:17
+----------------------------------------
+2013-10-22 11:46:17 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 11:46:17
+----------------------------------------
+2013-10-22 11:51:14 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 11:51:14
+----------------------------------------
+2013-10-22 11:51:14 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 11:51:14
+----------------------------------------
+2013-10-22 11:51:14 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 11:51:14
+----------------------------------------
+2013-10-22 11:56:13 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 11:56:13
+----------------------------------------
+2013-10-22 11:56:13 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 11:56:13
+----------------------------------------
+2013-10-22 11:56:13 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 11:56:13
+----------------------------------------
+2013-10-22 12:01:12 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:01:12
+----------------------------------------
+2013-10-22 12:01:12 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:01:12
+----------------------------------------
+2013-10-22 12:01:12 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:01:12
+----------------------------------------
+2013-10-22 12:06:11 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:06:11
+----------------------------------------
+2013-10-22 12:06:11 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:06:11
+----------------------------------------
+2013-10-22 12:06:11 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:06:11
+----------------------------------------
+2013-10-22 12:11:11 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:11:11
+----------------------------------------
+2013-10-22 12:11:11 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:11:11
+----------------------------------------
+2013-10-22 12:11:11 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:11:11
+----------------------------------------
+2013-10-22 12:16:10 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:16:10
+----------------------------------------
+2013-10-22 12:16:10 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:16:10
+----------------------------------------
+2013-10-22 12:16:10 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:16:10
+----------------------------------------
+2013-10-22 12:21:10 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:21:10
+----------------------------------------
+2013-10-22 12:21:10 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:21:10
+----------------------------------------
+2013-10-22 12:21:10 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:21:10
+----------------------------------------
+2013-10-22 12:26:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:26:09
+----------------------------------------
+2013-10-22 12:26:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:26:09
+----------------------------------------
+2013-10-22 12:26:09 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:26:09
+----------------------------------------
+2013-10-22 12:31:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:31:09
+----------------------------------------
+2013-10-22 12:31:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:31:09
+----------------------------------------
+2013-10-22 12:31:09 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:31:09
+----------------------------------------
+2013-10-22 12:36:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:36:09
+----------------------------------------
+2013-10-22 12:36:09 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:36:09
+----------------------------------------
+2013-10-22 12:36:09 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:36:09
+----------------------------------------
+2013-10-22 12:41:08 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:41:08
+----------------------------------------
+2013-10-22 12:41:08 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:41:08
+----------------------------------------
+2013-10-22 12:41:08 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:41:08
+----------------------------------------
+2013-10-22 12:46:08 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:46:08
+----------------------------------------
+2013-10-22 12:46:08 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:46:08
+----------------------------------------
+2013-10-22 12:46:08 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:46:08
+----------------------------------------
+2013-10-22 12:51:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:51:07
+----------------------------------------
+2013-10-22 12:51:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:51:07
+----------------------------------------
+2013-10-22 12:51:07 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:51:07
+----------------------------------------
+2013-10-22 12:56:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 12:56:07
+----------------------------------------
+2013-10-22 12:56:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 12:56:07
+----------------------------------------
+2013-10-22 12:56:07 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 12:56:07
+----------------------------------------
+2013-10-22 13:01:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:01:07
+----------------------------------------
+2013-10-22 13:01:07 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:01:07
+----------------------------------------
+2013-10-22 13:01:07 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:01:07
+----------------------------------------
+2013-10-22 13:06:06 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:06:06
+----------------------------------------
+2013-10-22 13:06:06 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:06:06
+----------------------------------------
+2013-10-22 13:06:06 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:06:06
+----------------------------------------
+2013-10-22 13:11:06 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:11:06
+----------------------------------------
+2013-10-22 13:11:06 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:11:06
+----------------------------------------
+2013-10-22 13:11:06 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:11:06
+----------------------------------------
+2013-10-22 13:16:05 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:16:05
+----------------------------------------
+2013-10-22 13:16:05 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:16:05
+----------------------------------------
+2013-10-22 13:16:05 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:16:05
+----------------------------------------
+2013-10-22 13:21:05 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:21:05
+----------------------------------------
+2013-10-22 13:21:05 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:21:05
+----------------------------------------
+2013-10-22 13:21:05 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:21:05
+----------------------------------------
+2013-10-22 13:26:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:26:04
+----------------------------------------
+2013-10-22 13:26:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:26:04
+----------------------------------------
+2013-10-22 13:26:04 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:26:04
+----------------------------------------
+2013-10-22 13:31:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:31:04
+----------------------------------------
+2013-10-22 13:31:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:31:04
+----------------------------------------
+2013-10-22 13:31:04 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:31:04
+----------------------------------------
+2013-10-22 13:36:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:36:04
+----------------------------------------
+2013-10-22 13:36:04 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:36:04
+----------------------------------------
+2013-10-22 13:36:04 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:36:04
+----------------------------------------
+2013-10-22 13:41:03 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:41:03
+----------------------------------------
+2013-10-22 13:41:03 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:41:03
+----------------------------------------
+2013-10-22 13:41:03 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:41:03
+----------------------------------------
+2013-10-22 13:46:03 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:46:03
+----------------------------------------
+2013-10-22 13:46:03 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:46:03
+----------------------------------------
+2013-10-22 13:46:03 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:46:03
+----------------------------------------
+2013-10-22 13:51:02 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:51:02
+----------------------------------------
+2013-10-22 13:51:02 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:51:02
+----------------------------------------
+2013-10-22 13:51:02 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:51:02
+----------------------------------------
+2013-10-22 13:56:02 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 13:56:02
+----------------------------------------
+2013-10-22 13:56:02 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 13:56:02
+----------------------------------------
+2013-10-22 13:56:02 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 13:56:02
+----------------------------------------
+2013-10-22 14:01:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:01:01
+----------------------------------------
+2013-10-22 14:01:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:01:01
+----------------------------------------
+2013-10-22 14:01:01 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:01:01
+----------------------------------------
+2013-10-22 14:06:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:06:01
+----------------------------------------
+2013-10-22 14:06:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:06:01
+----------------------------------------
+2013-10-22 14:06:01 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:06:01
+----------------------------------------
+2013-10-22 14:11:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:11:01
+----------------------------------------
+2013-10-22 14:11:01 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:11:01
+----------------------------------------
+2013-10-22 14:11:01 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:11:01
+----------------------------------------
+2013-10-22 14:16:00 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:16:00
+----------------------------------------
+2013-10-22 14:16:00 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:16:00
+----------------------------------------
+2013-10-22 14:16:00 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:16:00
+----------------------------------------
+2013-10-22 14:21:00 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:21:00
+----------------------------------------
+2013-10-22 14:21:00 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:21:00
+----------------------------------------
+2013-10-22 14:21:00 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:21:00
+----------------------------------------
+2013-10-22 14:25:59 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:25:59
+----------------------------------------
+2013-10-22 14:25:59 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:25:59
+----------------------------------------
+2013-10-22 14:25:59 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:25:59
+----------------------------------------
+2013-10-22 14:30:59 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:30:59
+----------------------------------------
+2013-10-22 14:30:59 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:30:59
+----------------------------------------
+2013-10-22 14:30:59 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:30:59
+----------------------------------------
+2013-10-22 14:35:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:35:58
+----------------------------------------
+2013-10-22 14:35:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:35:58
+----------------------------------------
+2013-10-22 14:35:58 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:35:58
+----------------------------------------
+2013-10-22 14:40:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:40:58
+----------------------------------------
+2013-10-22 14:40:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:40:58
+----------------------------------------
+2013-10-22 14:40:58 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:40:58
+----------------------------------------
+2013-10-22 14:45:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:45:58
+----------------------------------------
+2013-10-22 14:45:58 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:45:58
+----------------------------------------
+2013-10-22 14:45:58 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:45:58
+----------------------------------------
+2013-10-22 14:50:57 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:50:57
+----------------------------------------
+2013-10-22 14:50:57 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:50:57
+----------------------------------------
+2013-10-22 14:50:57 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:50:57
+----------------------------------------
+2013-10-22 14:52:58 System start 
+Log Type：Operaion Log
+Log Detail：Get webConfig information ……
+----------------------------------------
+2013-10-22 14:57:57 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\Ros directory 
+ begin……  
+Time:2013-10-22 14:57:57
+----------------------------------------
+2013-10-22 14:57:57 Read File
+Log Type：Operaion Log
+Log Detail：Read Files From \\10.155.36.139\IN\PO directory 
+ begin……  
+Time:2013-10-22 14:57:57
+----------------------------------------
+2013-10-22 14:57:57 Put File
+Log Type：Operaion Log
+Log Detail：Put Files to Server  
+ begin……  
+Time:2013-10-22 14:57:57
+----------------------------------------

@@ -1,0 +1,188 @@
+﻿.super-wrapper {
+    min-height: 100%;
+    min-width: 100%;
+}
+div.topheader
+{
+    width: 100%;
+    background:#0070b7;
+    color: white;
+    margin-left: 0px;
+}
+div.loginbg
+{
+    background: #fff url('../Resource/Login/6.png') no-repeat;
+    filter:alpha(opacity=80); -moz-opacity:0.8; opacity: 0.8;
+}
+div.loginForm
+{
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 20px;
+    -webkit-border-radius: 12px;
+    width: 400px;
+    height: 300px;
+    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+ }
+ div.loginForm .header {
+     background: url(../resource/login/black-bg.png) repeat-x scroll 0 0 #111111;
+     border-top-left-radius: 12px;
+     border-top-right-radius: 12px;
+     border-bottom: 1px solid #999;
+     margin: 0;
+     padding-top: 10px;
+     padding-left: 10px;
+     border: 0;
+     height: 35px;
+     color: white;
+     font-size:large;
+}
+div.loginInput {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+div.contentbody {
+    background: white url('../resource/content-grad-blue.png') repeat-x 0 0 !important;
+    background-position: top;
+    height: 100%;
+}
+div.page-footer {
+    background: #000;
+    padding: 0px;
+    position: relative;
+    height: 40px;
+    font-family: "Helvetica" !important;
+    color: white;
+}
+input.loginButton 
+{
+    white-space: nowrap;
+    font-weight: 400;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-image: -moz-linear-gradient(top, #fefefe, #ddd);
+    background-image: -ms-linear-gradient(top, #fefefe, #ddd);
+    background-image: -o-linear-gradient(top, #fefefe, #ddd);
+    filter: none;
+    padding: 6px 14px 4px 14px;
+    font-size: 15px;
+    color: #231F20;
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.loginDisplay
+{
+    font-size: 12px;
+    display: block;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    color: White;
+    position:relative;
+}
+.loginDisplay a:link, .loginDisplay a:visited, .loginDisplay a:hover
+{
+    color: white;
+}
+.loginDisplay input
+{
+    height: 18px;
+    width:165px;
+    font-size: 12px;
+    background: white url(../Resource/b6.PNG) no-repeat;
+    border:0px;
+    padding:0px;
+    padding-left:25px;
+    cursor:hand;
+    color: #686868;
+    border: solid 1px #868686;
+}
+.loginDisplay input:hover {
+    border: solid 1px blue;
+    cursor: pointer;
+}
+.userinfo
+{
+    width: 190px;
+    border: solid 1px #868686;
+    clear: both;
+    display:none;
+    position:absolute; 
+    background-color:#FFFFFF;
+}
+.open {
+    z-index: 999;
+    display: block;
+}
+.navbtn {
+    width: 160px;
+}
+a.navbtn {
+    margin: 3px 3px 3px 5px;
+    text-align: left;
+}
+
+/* TAB MENU   
+----------------------------------------------------------*/
+div.hideSkiplink
+{
+    background:#000000 ;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 0px;
+    background:#fff url('../Resource/b4.JPG') repeat-x;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+div.menu image
+{
+    border:0px;
+}
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    border-left: 1px #4e667d solid;
+    color: #dde4ec;
+    display: block;
+    /*line-height: 1.35em;*/
+    padding: 4px 20px;
+    text-decoration: none;
+}
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+table {
+    table-layout: fixed;
+}
+div.gridNav 
+{
+    background-color: #c3d9ff;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+label {
+    margin: 0.5em;
+}

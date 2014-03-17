@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3ACCD8E-3EC0-46DE-AE5D-47B5AA4BC7CD}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApp</RootNamespace>
+    <AssemblyName>WebApp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Common.Logging, Version=2.1.2.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Common.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalQuartz.Core">
+      <HintPath>..\lib\CrystalQuartz.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalQuartz.Web">
+      <HintPath>..\lib\CrystalQuartz.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="NVelocity">
+      <HintPath>..\lib\NVelocity.dll</HintPath>
+    </Reference>
+    <Reference Include="Quartz, Version=2.2.400.0, Culture=neutral, PublicKeyToken=f6b8c98a402cc8a4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\lib\Quartz.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\SupplierList.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="Help\About.htm" />
+    <Content Include="Help\ChangePassword.htm" />
+    <Content Include="Help\Function.html" />
+    <Content Include="Help\EditSupplier.htm" />
+    <Content Include="Help\EditAdmin.htm" />
+    <Content Include="Help\Index.html" />
+    <Content Include="Help\resource\1.bmp" />
+    <Content Include="Scripts\setday.js" />
+    <Content Include="Scripts\web.js" />
+    <Content Include="Styles\blueprint\ie.css" />
+    <Content Include="Styles\blueprint\main.css" />
+    <Content Include="Styles\blueprint\plugins\buttons\icons\cross.png" />
+    <Content Include="Styles\blueprint\plugins\buttons\icons\key.png" />
+    <Content Include="Styles\blueprint\plugins\buttons\icons\tick.png" />
+    <Content Include="Styles\blueprint\plugins\buttons\readme.txt" />
+    <Content Include="Styles\blueprint\plugins\buttons\screen.css" />
+    <Content Include="Styles\blueprint\plugins\fancy-type\readme.txt" />
+    <Content Include="Styles\blueprint\plugins\fancy-type\screen.css" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\doc.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\email.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\external.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\feed.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\im.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\lock.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\pdf.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\visited.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\icons\xls.png" />
+    <Content Include="Styles\blueprint\plugins\link-icons\readme.txt" />
+    <Content Include="Styles\blueprint\plugins\link-icons\screen.css" />
+    <Content Include="Styles\blueprint\plugins\rtl\readme.txt" />
+    <Content Include="Styles\blueprint\plugins\rtl\screen.css" />
+    <Content Include="Styles\blueprint\print.css" />
+    <Content Include="Styles\blueprint\screen.css" />
+    <Content Include="Styles\blueprint\src\forms.css" />
+    <Content Include="Styles\blueprint\src\grid.css" />
+    <Content Include="Styles\blueprint\src\grid.png" />
+    <Content Include="Styles\blueprint\src\ie.css" />
+    <Content Include="Styles\blueprint\src\print.css" />
+    <Content Include="Styles\blueprint\src\reset.css" />
+    <Content Include="Styles\blueprint\src\typography.css" />
+    <Content Include="Styles\Resource\b1.JPG" />
+    <Content Include="Styles\Resource\b10.jpg" />
+    <Content Include="Styles\Resource\b2.PNG" />
+    <Content Include="Styles\Resource\b3.JPG" />
+    <Content Include="Styles\Resource\b4.JPG" />
+    <Content Include="Styles\Resource\b5.JPG" />
+    <Content Include="Styles\Resource\b6.PNG" />
+    <Content Include="Styles\Resource\b7.PNG" />
+    <Content Include="Styles\Resource\b8.JPG" />
+    <Content Include="Styles\Resource\b9.JPG" />
+    <Content Include="Styles\Resource\Benefits_of_the_CPL_Hub_model.png" />
+    <Content Include="Styles\Resource\Benefits_of_the_CPL_Hub_model_small.png" />
+    <Content Include="Styles\Resource\content-grad-blue.png" />
+    <Content Include="Styles\Resource\footer_bar.gif" />
+    <Content Include="Styles\Resource\leftwing.gif" />
+    <Content Include="Styles\Resource\link_arrow.gif" />
+    <Content Include="Styles\Resource\Login\2.png" />
+    <Content Include="Styles\Resource\Login\3.png" />
+    <Content Include="Styles\Resource\Login\4.png" />
+    <Content Include="Styles\Resource\Login\5.png" />
+    <Content Include="Styles\Resource\Login\6.png" />
+    <Content Include="Styles\Resource\Login\black-bg.png" />
+    <Content Include="Styles\Resource\logo.png" />
+    <Content Include="Styles\Resource\placeholder.jpg" />
+    <Content Include="Styles\Resource\rightwing.gif" />
+    <Content Include="Styles\Resource\spacer.gif" />
+    <Content Include="Styles\Resource\topnav_bg.png" />
+    <Content Include="Styles\Resource\upload.jpg" />
+    <Content Include="WebContent\Buyer\ChangePassword.aspx" />
+    <Content Include="WebContent\Buyer\Inbox.aspx" />
+    <Content Include="WebContent\Buyer\Outbox.aspx" />
+    <Content Include="WebContent\Buyer\SupplierList.aspx" />
+    <Content Include="WebContent\Management\AssignRole.aspx" />
+    <Content Include="WebContent\Management\ChangePassword.aspx" />
+    <Content Include="WebContent\Management\AplicationUserList.aspx" />
+    <Content Include="WebContent\Management\AplicationSupplierList.aspx" />
+    <Content Include="WebContent\Management\DBConsole.aspx" />
+    <Content Include="WebContent\Management\LogTrace.aspx" />
+    <Content Include="WebContent\Management\MonitorFile.aspx" />
+    <Content Include="WebContent\Management\ServerConsole.aspx" />
+    <Content Include="WebContent\Management\StartServer.aspx" />
+    <Content Include="WebContent\Management\StopServer.aspx" />
+    <Content Include="WebContent\Management\SupplierList.aspx" />
+    <Content Include="WebContent\Management\UploadFileList.aspx" />
+    <Content Include="WebContent\Supplier\ApplicationSupport.aspx" />
+    <Content Include="WebContent\Supplier\BusinessProcesses.aspx" />
+    <Content Include="WebContent\Supplier\ChangePassword.aspx" />
+    <Content Include="WebContent\Supplier\ContactUs.aspx" />
+    <Content Include="WebContent\Supplier\Down.aspx" />
+    <Content Include="WebContent\Supplier\Download.aspx" />
+    <Content Include="Scripts\fileupload\Scripts\jquery-1.6.2.min.js" />
+    <Content Include="Scripts\fileupload\Scripts\jquery-ui-1.8.16.custom.min.js" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-icons_222222_256x240.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-icons_454545_256x240.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-icons_888888_256x240.png" />
+    <Content Include="Scripts\fileupload\Styles\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Scripts\fileupload\Styles\jquery-ui-1.8.16.custom.css" />
+    <Content Include="WebContent\Supplier\Links.aspx" />
+    <Content Include="WebContent\Supplier\PartnerDocumentation.aspx" />
+    <Content Include="WebContent\Supplier\SelectSite.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebContent\Management\AddSupplier.aspx" />
+    <Content Include="WebContent\Management\AddUser.aspx" />
+    <Content Include="WebContent\Management\EditSupplier.aspx" />
+    <Content Include="WebContent\Management\EditUser.aspx" />
+    <Content Include="WebContent\Management\SupplierManagement.aspx" />
+    <Content Include="WebContent\Management\UserManagement.aspx" />
+    <Content Include="WebContent\Supplier\Inbox.aspx" />
+    <Content Include="WebContent\Supplier\Outbox.aspx" />
+    <Content Include="WebContent\Supplier\Upload.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\SupplierList.aspx.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\SupplierList.aspx.designer.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuthenticModule.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogConfiguration.cs" />
+    <Compile Include="WebContent\Buyer\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Buyer\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Buyer\Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Buyer\Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Buyer\Outbox.aspx.cs">
+      <DependentUpon>Outbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Buyer\Outbox.aspx.designer.cs">
+      <DependentUpon>Outbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Buyer\SupplierList.aspx.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Buyer\SupplierList.aspx.designer.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\AssignRole.aspx.cs">
+      <DependentUpon>AssignRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\AssignRole.aspx.designer.cs">
+      <DependentUpon>AssignRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\AplicationUserList.aspx.cs">
+      <DependentUpon>AplicationUserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\AplicationUserList.aspx.designer.cs">
+      <DependentUpon>AplicationUserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\AplicationSupplierList.aspx.cs">
+      <DependentUpon>AplicationSupplierList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\AplicationSupplierList.aspx.designer.cs">
+      <DependentUpon>AplicationSupplierList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\DBConsole.aspx.cs">
+      <DependentUpon>DBConsole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\DBConsole.aspx.designer.cs">
+      <DependentUpon>DBConsole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\LogTrace.aspx.cs">
+      <DependentUpon>LogTrace.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\LogTrace.aspx.designer.cs">
+      <DependentUpon>LogTrace.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\MonitorFile.aspx.cs">
+      <DependentUpon>MonitorFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\MonitorFile.aspx.designer.cs">
+      <DependentUpon>MonitorFile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\ServerConsole.aspx.cs">
+      <DependentUpon>ServerConsole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\ServerConsole.aspx.designer.cs">
+      <DependentUpon>ServerConsole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\StartServer.aspx.cs">
+      <DependentUpon>StartServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\StartServer.aspx.designer.cs">
+      <DependentUpon>StartServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\StopServer.aspx.cs">
+      <DependentUpon>StopServer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\StopServer.aspx.designer.cs">
+      <DependentUpon>StopServer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\SupplierList.aspx.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\SupplierList.aspx.designer.cs">
+      <DependentUpon>SupplierList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\UploadFileList.aspx.cs">
+      <DependentUpon>UploadFileList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\UploadFileList.aspx.designer.cs">
+      <DependentUpon>UploadFileList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ApplicationSupport.aspx.cs">
+      <DependentUpon>ApplicationSupport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ApplicationSupport.aspx.designer.cs">
+      <DependentUpon>ApplicationSupport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\BusinessProcesses.aspx.cs">
+      <DependentUpon>BusinessProcesses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\BusinessProcesses.aspx.designer.cs">
+      <DependentUpon>BusinessProcesses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ContactUs.aspx.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\ContactUs.aspx.designer.cs">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Down.aspx.cs">
+      <DependentUpon>Down.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Down.aspx.designer.cs">
+      <DependentUpon>Down.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Download.aspx.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Download.aspx.designer.cs">
+      <DependentUpon>Download.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Links.aspx.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Links.aspx.designer.cs">
+      <DependentUpon>Links.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\PartnerDocumentation.aspx.cs">
+      <DependentUpon>PartnerDocumentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\PartnerDocumentation.aspx.designer.cs">
+      <DependentUpon>PartnerDocumentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\SelectSite.aspx.cs">
+      <DependentUpon>SelectSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\SelectSite.aspx.designer.cs">
+      <DependentUpon>SelectSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Templates\Supplier.Master.cs">
+      <DependentUpon>Supplier.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Supplier.Master.designer.cs">
+      <DependentUpon>Supplier.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Management.Master.cs">
+      <DependentUpon>Management.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Management.Master.designer.cs">
+      <DependentUpon>Management.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Templates\Buyer.Master.cs">
+      <DependentUpon>Buyer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Templates\Buyer.Master.designer.cs">
+      <DependentUpon>Buyer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\AddSupplier.aspx.cs">
+      <DependentUpon>AddSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\AddSupplier.aspx.designer.cs">
+      <DependentUpon>AddSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\AddUser.aspx.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\AddUser.aspx.designer.cs">
+      <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\EditSupplier.aspx.cs">
+      <DependentUpon>EditSupplier.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\EditSupplier.aspx.designer.cs">
+      <DependentUpon>EditSupplier.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\EditUser.aspx.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\EditUser.aspx.designer.cs">
+      <DependentUpon>EditUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\SupplierManagement.aspx.cs">
+      <DependentUpon>SupplierManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\SupplierManagement.aspx.designer.cs">
+      <DependentUpon>SupplierManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Management\UserManagement.aspx.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Management\UserManagement.aspx.designer.cs">
+      <DependentUpon>UserManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Inbox.aspx.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Inbox.aspx.designer.cs">
+      <DependentUpon>Inbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Outbox.aspx.cs">
+      <DependentUpon>Outbox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Outbox.aspx.designer.cs">
+      <DependentUpon>Outbox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Upload.aspx.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebContent\Supplier\Upload.aspx.designer.cs">
+      <DependentUpon>Upload.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Excel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Buyer.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Management.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{8979CF7D-F521-4AAA-8938-959D449C9916}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{BE67EE8C-6E2A-40A9-A566-D98B22B350EA}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Log\Log.csproj">
+      <Project>{63C1E434-73E9-4B3F-AA23-C33BC3302A73}</Project>
+      <Name>Log</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{E3E912A1-49B0-4197-85DA-66E5BC969875}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Tool\Tool.csproj">
+      <Project>{15808743-73CF-43C7-B609-58D95EA5718A}</Project>
+      <Name>Tool</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Main.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Templates\Supplier.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Log4Net.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="PortalSchedule.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Templates\download\ROSFormat.xlsx" />
+    <None Include="Scripts\fileupload\Styles\images\Thumbs.db" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>41732</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

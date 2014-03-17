@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Buyer.Master.cs" Inherits="WebApp.Buyer" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <link href="~/Styles/blueprint/screen.css" rel="stylesheet" type="text/css" media="screen, projection"/>
+    <link href="~/Styles/blueprint/plugins/buttons/screen.css" rel="stylesheet" type="text/css" media="screen, projection" />
+    <link href="~/Styles/blueprint/main.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]><link rel="stylesheet" href="~/Styles/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <script language="javascript" src='<%=ResolveUrl("~/Scripts/jquery-1.4.1.min.js") %>'></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"/>
+</head>
+<body>
+    <div class="super-wrapper">
+        <form id="form1" runat="server">
+            <div id="usertab" class="userinfo" >
+                <div class="top">
+                    <a id="ChangePassword" class="button navbtn" href='<%=ResolveUrl("~/WebContent/Buyer/ChangePassword.aspx")%>'>Change Password</a>
+                </div>
+                <div>
+                    <a id="DUser" class="button navbtn" href='<%=ResolveUrl("~/Account/Login.aspx")%>'>Sign in as Different User</a>
+                </div>
+                <div class="bottom">
+                    <a id="SOut" class="button navbtn" href='<%=ResolveUrl("~/Account/Login.aspx")%>'>Sign Out</a>
+                </div>
+            </div>
+            <div id="header" class="span-24 topheader">
+                <div class="span-12" style="height: 30px;">
+                    <h2 class="header" style="font-weight:bold; color:white; margin-left:10px; margin-top: 10px;">
+                        Welcome to BMC IC Portal <font style="font-style:italic">Test</font>
+                    </h2>
+                </div>
+                <div id="userinfo" class="right loginDisplay">
+                    <div>
+                        Welcome &nbsp;&nbsp;
+                        <input id="UserName" name="UserName" type="text" readonly="readonly" runat="server"/>
+                    </div>
+                </div>
+            </div>
+            <div class="hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem Text="Home"/>
+                        <asp:MenuItem NavigateUrl="~/WebContent/Buyer/Inbox.aspx" Text="Inbox"/>
+                        <asp:MenuItem NavigateUrl="~/WebContent/Buyer/Outbox.aspx" Text="Outbox"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+            <div class="contentbody">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+            </div>
+            <div class="footer">
+                <asp:ContentPlaceHolder ID="FooterContent" runat="server" />
+            </div>
+        </form>
+    </div>
+</body>
+    <script language="javascript" type="text/javascript">
+        $(function () {
+            $("#UserName").click(function (e) {
+                e.stopPropagation();
+                if ($("#usertab").hasClass('open')) {
+                    $("#usertab").removeClass('open');
+                    $(document).unbind(click);
+                    $("#UserName").unbind(click);
+                } else {
+                    $("#usertab").addClass('open');
+                    var offset = $("#UserName").offset();
+                    $("#usertab").css('left', offset.left);
+                    $("#usertab").css('top', offset.top + $("#UserName").height() + 2);
+                    jQuery(document).click(function () {
+                        $("#usertab").removeClass('open');
+                    });
+                }
+            });
+        });
+
+    </script>
+</html>
